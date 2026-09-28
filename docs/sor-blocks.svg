@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" width="640" height="560" role="img" aria-labelledby="t d">
+  <title id="t">Block layout of a .sor file</title>
+  <desc id="d">A .sor file is a vertical sequence of blocks: Map, GenParams, SupParams, FxdParams, KeyEvents, optional LnkParams, DataPts, optional vendor blocks, and Cksum.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .name { font-size: 15px; font-weight: 600; }
+    .cap { font-size: 13px; fill: #4b5563; }
+    .std { fill: #eef2f7; stroke: #6b7280; stroke-width: 1.2; }
+    .map { fill: #dbe7f5; stroke: #3f5f86; stroke-width: 1.4; }
+    .opt { fill: #ffffff; stroke: #6b7280; stroke-width: 1.2; stroke-dasharray: 5 4; }
+    .end { fill: #e5e7eb; stroke: #4b5563; stroke-width: 1.2; }
+    .note { font-size: 12px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="640" height="560" rx="10" fill="#fafafa"/>
+
+  <text x="24" y="32" class="name">.sor file, start to end</text>
+  <text x="24" y="50" class="note">Solid: standard block. Dashed: optional. All sizes come from the Map.</text>
+
+  <rect class="map" x="24" y="64" width="592" height="48" rx="6"/>
+  <text x="40" y="93" class="name">Map</text>
+  <text x="170" y="93" class="cap">Directory: revision, then name, revision and size of every block</text>
+
+  <rect class="std" x="24" y="118" width="592" height="48" rx="6"/>
+  <text x="40" y="147" class="name">GenParams</text>
+  <text x="170" y="147" class="cap">Cable and fiber IDs, wavelength, locations, operator, comment</text>
+
+  <rect class="std" x="24" y="172" width="592" height="48" rx="6"/>
+  <text x="40" y="201" class="name">SupParams</text>
+  <text x="170" y="201" class="cap">Instrument maker, model, serial numbers, software revision</text>
+
+  <rect class="std" x="24" y="226" width="592" height="48" rx="6"/>
+  <text x="40" y="255" class="name">FxdParams</text>
+  <text x="170" y="255" class="cap">Date, pulse width, sample spacing, point count, index of refraction</text>
+
+  <rect class="std" x="24" y="280" width="592" height="48" rx="6"/>
+  <text x="40" y="309" class="name">KeyEvents</text>
+  <text x="170" y="309" class="cap">Event table: position, loss, reflectance, code; span loss and ORL</text>
+
+  <rect class="opt" x="24" y="334" width="592" height="48" rx="6"/>
+  <text x="40" y="363" class="name">LnkParams</text>
+  <text x="170" y="363" class="cap">Optional: landmarks along the link</text>
+
+  <rect class="std" x="24" y="388" width="592" height="48" rx="6"/>
+  <text x="40" y="417" class="name">DataPts</text>
+  <text x="170" y="417" class="cap">The trace: scale factor and one u16 sample per point</text>
+
+  <rect class="opt" x="24" y="442" width="592" height="48" rx="6"/>
+  <text x="40" y="471" class="name">vendor blocks</text>
+  <text x="170" y="471" class="cap">Optional, proprietary. Skip by the size given in the Map</text>
+
+  <rect class="end" x="24" y="496" width="592" height="48" rx="6"/>
+  <text x="40" y="525" class="name">Cksum</text>
+  <text x="170" y="525" class="cap">CRC-16 over every byte before the stored value</text>
+</svg>
