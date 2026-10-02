@@ -18,7 +18,7 @@ Software, libraries and reading for people who work with OTDR traces and `.sor` 
 
 ## Online viewers
 
-- [OTDR Master](https://otdrmaster.com/en/?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Opens `.sor`, `.msor`, `.trc` and other OTDR files in the browser, with event table, cursors and PDF report. Free, no install.
+- [OTDR Master](https://otdrmaster.com/?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Opens `.sor`, `.msor`, `.trc` and other OTDR files in the browser, with event table, cursors and PDF report. Free, no install.
 - [onlineotdr.com](https://onlineotdr.com/) - Online `.sor` viewer with PDF report.
 - [otdrconverter.online](https://otdrconverter.online/) - Converts OTDR files to PDF and Excel reports.
 - [VeEX Fiberizer Cloud](https://www.fiberizer.com/) - Cloud storage and analysis of test results from VeEX, with a free account tier.
@@ -40,11 +40,11 @@ Software, libraries and reading for people who work with OTDR traces and `.sor` 
 
 ## Learning
 
-- [How to read an OTDR trace](https://otdrmaster.com/en/guide/how-to-read-otdr-trace?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Walks through a trace from the launch fiber to the fiber end.
-- [OTDR event types](https://otdrmaster.com/en/guide/otdr-event-types?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Splices, connectors, bends, ghosts and what each looks like on the trace.
-- [OTDR dead zone](https://otdrmaster.com/en/guide/otdr-dead-zone?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Event and attenuation dead zones, with a [calculator](https://otdrmaster.com/en/otdr-dead-zone-calculator?utm_source=github&utm_medium=referral&utm_campaign=sor-format).
-- [Launch cable](https://otdrmaster.com/en/guide/launch-cable?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Why the first and last connector need one.
-- [Bidirectional OTDR testing](https://otdrmaster.com/en/guide/bidirectional-otdr?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Why splice loss differs by direction and how averaging fixes it.
+- [How to read an OTDR trace](https://otdrmaster.com/guide/how-to-read-otdr-trace?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Walks through a trace from the launch fiber to the fiber end.
+- [OTDR event types](https://otdrmaster.com/guide/otdr-event-types?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Splices, connectors, bends, ghosts and what each looks like on the trace.
+- [OTDR dead zone](https://otdrmaster.com/guide/otdr-dead-zone?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Event and attenuation dead zones, with a [calculator](https://otdrmaster.com/otdr-dead-zone-calculator?utm_source=github&utm_medium=referral&utm_campaign=sor-format).
+- [Launch cable](https://otdrmaster.com/guide/launch-cable?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Why the first and last connector need one.
+- [Bidirectional OTDR testing](https://otdrmaster.com/guide/bidirectional-otdr?utm_source=github&utm_medium=referral&utm_campaign=sor-format) - Why splice loss differs by direction and how averaging fixes it.
 - [VIAVI: OTDR testing](https://www.viavisolutions.com/en-us/what-otdr-testing) - Vendor introduction to OTDR testing.
 - [EXFO: OTDR](https://www.exfo.com/en/resources/glossary/otdr/) - Vendor glossary entry.
 - [Fluke Networks: OTDR basics](https://www.flukenetworks.com/knowledge-base/applicationstandards-articles-books/otdr-basics) - Knowledge base article.

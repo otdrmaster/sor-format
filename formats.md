@@ -14,4 +14,4 @@ Most OTDRs can save a trace as a Bellcore/Telcordia `.sor` file. Many also keep 
 | `.tfw` | Wavetek, Acterna | Older instruments. |
 | `.wtk` | Wavetek | MTS 5000. |
 
-All of these open in the browser at [OTDR Master](https://otdrmaster.com/en/?utm_source=github&utm_medium=referral&utm_campaign=sor-format), and can be saved from there as `.sor` so that any other OTDR software reads them. If your file does not open, [send it to us](mailto:support@otdrmaster.com) and we will look at it.
+All of these open in the browser at [OTDR Master](https://otdrmaster.com/?utm_source=github&utm_medium=referral&utm_campaign=sor-format), and can be saved from there as `.sor` so that any other OTDR software reads them. If your file does not open, [send it to us](mailto:support@otdrmaster.com) and we will look at it.

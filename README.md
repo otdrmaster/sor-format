@@ -2,7 +2,7 @@
 
 Free reference material for anyone who works with OTDR traces: the layout of the Bellcore/Telcordia `.sor` file, a list of OTDR software and libraries, a glossary of trace terms in fifteen languages, and a table of the file extensions instruments write.
 
-Maintained by the team behind [OTDR Master](https://otdrmaster.com/en/?utm_source=github&utm_medium=referral&utm_campaign=sor-format), an online viewer that opens `.sor`, `.msor`, `.trc` and other OTDR files in the browser.
+Maintained by the team behind [OTDR Master](https://otdrmaster.com/?utm_source=github&utm_medium=referral&utm_campaign=sor-format), an online viewer that opens `.sor`, `.msor`, `.trc` and other OTDR files in the browser.
 
 ## What is here
 
